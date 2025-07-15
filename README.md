@@ -1,2 +1,2 @@
 # rsqsim2fakequakes-tools
-RSQSim to MudPy/Fakequakes conversion scripts for GNSS waveform generation.
+Scripts to convert RSQSim rupture outputs into Fakequakes inputs for synthetic GNSS waveform generation.
