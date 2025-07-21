@@ -1,0 +1,34 @@
+# macOS system files
+.DS_Store
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# Terminal history or backup files (macOS, zsh/bash)
+*.swp
+*.swo
+*~
+.zsh_history
+.bash_history
+
+# Log and temp files
+*.log
+*.tmp
+*.bak
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# PyCharm
+.idea/
