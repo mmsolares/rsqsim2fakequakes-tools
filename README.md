@@ -1,6 +1,6 @@
 # rsqsim2fakequakes-tools
 
-Scripts to convert RSQSim rupture outputs into Fakequakes inputs for synthetic GNSS waveform generation.
+Scripts to convert RSQSim rupture outputs into FakeQuakes inputs for synthetic GNSS waveform generation.
 
 ## Overview
 
