@@ -8,9 +8,9 @@ Scripts to convert RSQSim rupture outputs into FakeQuakes inputs for synthetic G
 
 This repository provides utilities to convert RSQSim rupture outputs into FakeQuakes-compatible formats, enabling synthetic waveform generation.
 
-It is part of a larger framework used to test the G-FAST early earthquake warning algorithm, using RSQSim-generated ruptures for earthquake scenarios in the Hikurangi subduction zone (New Zealand).
+It is part of a larger framework used to test the G-FAST early earthquake warning algorithm, using RSQSim-generated ruptures for earthquake scenarios in the Hikurangi subduction zone (New Zealand). For more details on this framework refer to article published in Seismica: *Using ruptures from earthquake cycle simulators to test geodetic early warning systems performance* by [Solares-Colón et al. (2025)](https://doi.org/10.26443/seismica.v4i2.1769).
 
-More details will be added soon, including references to related article.
+Supporting data for published work are vailable in Zenodo (https://doi.org/10.5281/zenodo.15522298). This includes rupture scenarios from both the RSQSim and FakeQuakes catalogs, along with synthetic waveforms for testing the early earthquake warning module G-FAST. The data were generated specifically for the Hikurangi subduction zone.
 
 ## Project Structure
 ```
@@ -152,3 +152,9 @@ To generate synthetic GNSS waveforms using FakeQuakes, the following components 
 - **Velocity model** – needed for Green's function computations (e.g., my_fakequake_project/structure/XXXX.mod)
 - **Rupture files** – in FakeQuakes format, converted from RSQSim outputs. (e.g., my_fakequake_project/output/ruptures/subd_event_022.rupt)
 - **Log files** - dummy log files in FakeQuakes format (e.g., my_fakequake_project/output/ruptures/subd_event_022.log)
+
+## References
+
+Solares-Colón, M. M., Melgar, D., Howell, A., Crowell, B., D’Anastasio, E., Caballero, E., & Fry, B. (2025). Using ruptures from an earthquake cycle simulator to test geodetic early warning system performance. Seismica, 4(2). https://doi.org/10.26443/seismica.v4i2.1769
+
+Solares-Colón, M. M., Melgar, D., Howell, A., Crowell, B., D'Anastasio, E., Caballero, E., & Fry, B. (2025). Using ruptures from earthquake cycle simulators to test geodetic early warning systems performance (Supplementary Data) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.15522298
