@@ -10,7 +10,7 @@ This repository provides utilities to convert RSQSim rupture outputs into FakeQu
 
 It is part of a larger framework used to test the G-FAST early earthquake warning algorithm, using RSQSim-generated ruptures for earthquake scenarios in the Hikurangi subduction zone (New Zealand). For more details on this framework refer to article published in Seismica: *Using ruptures from earthquake cycle simulators to test geodetic early warning systems performance* by [Solares-Colón et al. (2025)](https://doi.org/10.26443/seismica.v4i2.1769).
 
-Supporting data for published work are vailable in Zenodo (https://doi.org/10.5281/zenodo.15522298). This includes rupture scenarios from both the RSQSim and FakeQuakes catalogs, along with synthetic waveforms for testing the early earthquake warning module G-FAST. The data were generated specifically for the Hikurangi subduction zone.
+Supporting data for published work are vailable in [Zenodo](https://doi.org/10.5281/zenodo.15522298). This includes rupture scenarios from both the RSQSim and FakeQuakes catalogs, along with synthetic waveforms for testing the early earthquake warning module G-FAST. The data were generated specifically for the Hikurangi subduction zone.
 
 ## Project Structure
 ```
